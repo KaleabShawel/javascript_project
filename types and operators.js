@@ -237,4 +237,11 @@ document.write("<br/>");
  let price4=20;
  let message11=(price4<10)?'yes':'No';
  document.write(message11+"<br/>");
-
+ document.write("<br/>");
+ document.write("&nbsp <b>13.Block scope using let</b> <br/>");
+ document.write("<br/>");
+ if(true){
+   let value2 = 'yes';
+   document.write(value2+"<br/>");
+ }
+ document.write("<br/>");
