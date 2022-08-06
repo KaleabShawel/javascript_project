@@ -245,3 +245,31 @@ document.write("<br/>");
    document.write(value2+"<br/>");
  }
  document.write("<br/>");
+ document.write("&nbsp <b>14.Looping </b> <br/>");
+ document.write("for loop:");
+ for(let i=0;i<5;i++){
+   
+   document.write("<br/>",i);
+ }
+ document.write("<br/>");
+ document.write("while loop:");
+ let count = 1;
+ while (count<5){
+   document.write("<br/>",count);
+   count++;
+ }
+ document.write("<br/>");
+ document.write("while loop:");
+ let i=4;
+ while(i>0){
+   document.write("<br/>",i);
+   i--;
+ }
+ document.write("<br/>");
+ document.write("do...while loop:");
+let j=-4;
+do{
+   document.write(" ",j);
+   j--;
+}while(j>0);
+
