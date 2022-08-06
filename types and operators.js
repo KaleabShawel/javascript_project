@@ -173,3 +173,20 @@ document.write("<br/>");
  document.write("This is the name of the object: "+ person.firstname+ " "+ person.lastname+"<br/>");
  document.write("</center>");
  document.write("<br/>");
+ document.write("&nbsp <b>10. Program Flow</b> <br/>");
+ if (5===5){
+   document.write("yes");
+ }
+ if (5>10){
+   document.write("No");
+ }
+ let num12 = 20;
+ if(num12>15){
+   document.write("True");
+ }
+ let state = "FL";
+ let taxpercent = 7;
+ if (state!=="FL"){
+   taxpercent=0;
+ }
+ document.write(taxpercent);
