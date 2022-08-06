@@ -272,4 +272,19 @@ do{
    document.write(" ",j);
    j--;
 }while(j>0);
+ document.write("<br/>");
+ document.write("&nbsp <b>15. Function </b> <br/>");
+ function logMessage(){
+   document.write("Here is the message for function declaration and calling. <br/>");
+ }
+ logMessage();
+ document.write("<br/>");
+ logMessage();
+ document.write("<br/>");
+ let fn = function (){
+   document.write("<br/>Here is the message for function expression and calling.");
+ }
+ fn();
+ document.write("<br/>");
+ fn();
 
