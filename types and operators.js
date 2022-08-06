@@ -175,18 +175,22 @@ document.write("<br/>");
  document.write("<br/>");
  document.write("&nbsp <b>10. Program Flow</b> <br/>");
  if (5===5){
-   document.write("yes");
+   document.write("yes"+"<br/>");
  }
+ document.write("<br/>");
  if (5>10){
-   document.write("No");
+   document.write("No"+"<br/>");
  }
+ document.write("<br/>");
  let num12 = 20;
  if(num12>15){
-   document.write("True");
+   document.write("True"+"<br>");
  }
+ document.write("<br/>");
  let state = "FL";
  let taxpercent = 7;
- if (state!=="FL"){
+ if (state!=="FL"+"<br/>"){
    taxpercent=0;
  }
  document.write(taxpercent);
+ document.write("<br/>");
