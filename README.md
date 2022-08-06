@@ -1,1 +1,1 @@
-# js2
+# js program
