@@ -231,5 +231,10 @@ document.write("<br/>");
    document.write("<br/>");
    document.write("Fales"+"<br/>");
  }
-
+ document.write("<br/>");
+ document.write("&nbsp <b>12.The Ternary Operator</b> <br/>");
+ document.write("<br/>");
+ let price4=20;
+ let message11=(price4<10)?'yes':'No';
+ document.write(message11+"<br/>");
 
