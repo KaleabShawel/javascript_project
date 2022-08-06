@@ -176,10 +176,15 @@ document.write("<br/>");
  document.write("&nbsp <b>10. Program Flow</b> <br/>");
  if (5===5){
    document.write("yes"+"<br/>");
+   console.log("true");
  }
  document.write("<br/>");
- if (5>10){
+ let small=5;
+ let big=10;
+ if (small>big){
+   console.log ('No');
    document.write("No"+"<br/>");
+   
  }
  document.write("<br/>");
  let num12 = 20;
@@ -194,3 +199,37 @@ document.write("<br/>");
  }
  document.write(taxpercent);
  document.write("<br/>");
+
+ document.write("&nbsp <b>11. Truthy and Falsy</b> <br/>");
+ if ("0"){
+   document.write("True"+"<br/>");
+ }
+ document.write("<br/>");
+ if (0){
+   document.write("false"+"<br/>");
+   console.log('false');
+ }
+ document.write("<br/>");
+ if (1.1+1.3!==2.4){
+   document.write("true"+"<br/>");
+ }
+ let price3 = 20;
+ if (price3<10){
+   document.write("True","<br/>");
+   document.write("<br/>");
+ }
+ 
+ else{
+   document.write("<br/>");
+   document.write("False", "<br/>");
+ }
+
+ if(1==="1"){
+   document.write("True"+"<br/>");
+ }
+ else{
+   document.write("<br/>");
+   document.write("Fales"+"<br/>");
+ }
+
+
