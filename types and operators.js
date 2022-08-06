@@ -172,3 +172,4 @@ document.write("<br/>");
  document.write("<br/>");
  document.write("This is the name of the object: "+ person.firstname+ " "+ person.lastname+"<br/>");
  document.write("</center>");
+ document.write("<br/>");
