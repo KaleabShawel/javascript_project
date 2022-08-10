@@ -312,3 +312,26 @@ document.write("<br/>");
  }
 let secretCode = getSecretcode(2);
 document.write("The value is: ",secretCode, "<br/>");
+document.write("<br/>");
+ document.write("&nbsp <b>18. Function Scope </b> <br/>");
+ document.write("<br/>");
+ let key = 35;
+ function getSecretcode2(valu2){
+  return valu2 * key;
+ }
+ let secretCode2 = getSecretcode2(4);
+ document.write("This is the value it multiplied by it's Global scope :", secretCode2, "<br/>");
+ document.write("<br/>");
+ let key1 = 42;
+ function getSecretcode3 (valu3){
+  let keyGenerator = function(){
+    let key2 = 12;
+    document.write("In keyGenerator in local scope :", key2,"<br/>");
+    return key2;
+  }
+  let code2 = valu3 * keyGenerator();
+  document.write("In getSecretcode3: ", key1, "<br/>");
+  return code2;
+ } 
+ let secretCode3 = getSecretcode3(5);
+ document.write("This the value of keyGenerator Nested function: ",secretCode3,"<br/>"); 
