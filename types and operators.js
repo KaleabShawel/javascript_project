@@ -287,4 +287,10 @@ do{
  fn();
  document.write("<br/>");
  fn();
-
+ document.write("<br/>");
+ let myFunction = function loggingFunction(){
+  document.write("Here is a message");
+  console.log("Here is a message");
+ }
+ loggingFunction();// error because we can't call fuction expression by the function name,, 
+ //we call it by it's variable!!
