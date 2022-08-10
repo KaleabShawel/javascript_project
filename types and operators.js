@@ -400,3 +400,24 @@ document.write("<br/>");
   }
  };
  person7.showInfo2(35);
+ document.write("<br/>");
+ document.write("&nbsp <b>21. Passing objects to functions </b> <br/>");
+ document.write("<br/>");
+ let message12 ='Hello';
+ function changeMessage(message12){
+   message12='Hi';
+ } 
+ changeMessage(message12);
+ document.write("This is The first Message: ",message12,"<br/>");
+ document.write("<br/>");
+ let person8 = {
+  name:'John',
+  age:35,
+  
+ };
+ function incrementAge(p){
+    p.age++;
+}
+incrementAge(person8);
+document.write("The person realage: ",person8.age);
+
