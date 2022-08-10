@@ -335,3 +335,46 @@ document.write("<br/>");
  } 
  let secretCode3 = getSecretcode3(5);
  document.write("This the value of keyGenerator Nested function: ",secretCode3,"<br/>"); 
+ document.write("<br/>");
+ document.write("&nbsp <u><b>19. Objects and the DOM </b></u> <br/>");
+ document.write("<br/>");
+ document.write("&nbsp <b>19.1 Objects Creation </b> <br/>");
+ document.write("<br/>");
+ let person2 = {
+  name:'John',
+  age:24,
+  partTime:false
+ };
+ document.write("The person name: ",person2.name,"<br/>");
+ document.write("The person Age: ",person2.age,"<br/>");
+ document.write("<br/>");
+ document.write("&nbsp <b>19.2 To change the property values by dot syntax: </b> <br/>");
+ document.write("<br/>");
+ let person3 = {
+   name:'John',
+   age: 24,
+   partTime:false
+ };
+person3.age=26;
+document.write("Change the person age: ",person3.age,"<br/>");
+document.write("<br/>");
+document.write("&nbsp <b>19.3 To change the property values by square brace syntax: </b> <br/>");
+document.write("<br/>");
+let person4 = {
+  name:'John',
+  age: 26,
+  partTime:false
+};
+person4 ['age']=30;
+document.write("Change the person age: ",person4.age,"<br/>");
+document.write("<br/>");
+ document.write("&nbsp <b>19.4 Using special data type Symbol  </b> <br/>");
+ document.write("<br/>");
+ let mySymbol = Symbol();
+ let person5 ={
+  name:'John',
+  age:30,
+  partTime:false,
+  [mySymbol] : 'This is secret information'
+ };
+ document.write(person5[mySymbol],"<br/>");
