@@ -420,4 +420,20 @@ document.write("<br/>");
 }
 incrementAge(person8);
 document.write("The person realage: ",person8.age);
-
+document.write("<br/>");
+ document.write("&nbsp <b>22. Standard Built-in objects </b> <br/>");
+ document.write("<br/>");
+ let now = new Date();
+ document.write(now.toDateString(),"<br/>");
+ document.write("<br/>");
+ document.write("Built-in method absolute value: ",Math.abs(-42),"<br/>");
+ document.write("<br/>");
+ document.write("Built-in method random number: ",Math.random(),"<br/>");
+ document.write("<br/>");
+ let char = "Hello World";
+ document.write("Built-in String method: ",char.charAt(6),"<br/>");
+ document.write("<br/>");
+ let no = "34";
+ let no2= Number.isNaN(no);
+ document.write("Built-in method in checking Number: ",no2,"<br/>");
+ document.write("<br/>");
