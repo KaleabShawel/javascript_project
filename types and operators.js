@@ -288,9 +288,16 @@ do{
  document.write("<br/>");
  fn();
  document.write("<br/>");
- let myFunction = function loggingFunction(){
+ /*let myFunction = function loggingFunction(){
   document.write("Here is a message");
   console.log("Here is a message");
  }
  loggingFunction();// error because we can't call fuction expression by the function name,, 
- //we call it by it's variable!!
+ //we call it by it's variable!!*/
+ document.write("<br/>");
+ document.write("&nbsp <b>16. Passing information to function </b> <br/>");
+ let myFunction2 = function (firstmessage, secondmessage){
+  document.write(firstmessage," ");
+  document.write(secondmessage);
+ }
+myFunction2("Hello","Sami !!");
