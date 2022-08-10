@@ -296,8 +296,19 @@ do{
  //we call it by it's variable!!*/
  document.write("<br/>");
  document.write("&nbsp <b>16. Passing information to function </b> <br/>");
+ document.write("<br/>");
  let myFunction2 = function (firstmessage, secondmessage){
   document.write(firstmessage," ");
   document.write(secondmessage);
  }
-myFunction2("Hello","Sami !!");
+myFunction2("Hello","Sami !! <br/>");
+
+document.write("<br/>");
+ document.write("&nbsp <b>17. Function Return Values </b> <br/>");
+ document.write("<br/>");
+ function getSecretcode(valu){
+  let code = valu * 42;
+  return code;
+ }
+let secretCode = getSecretcode(2);
+document.write("The value is: ",secretCode, "<br/>");
