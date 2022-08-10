@@ -168,6 +168,7 @@ document.write("<br/>");
     firstname:'Kaleab',
     lastname:'Shawel'
  };
+ document.write("<center>");
  document.write("This is a typeof value: "+ typeof person+"<br/>");
  document.write("<br/>");
  document.write("This is the name of the object: "+ person.firstname+ " "+ person.lastname+"<br/>");
@@ -419,7 +420,7 @@ document.write("<br/>");
     p.age++;
 }
 incrementAge(person8);
-document.write("The person realage: ",person8.age);
+document.write("The person realage: ",person8.age,"<br/>");
 document.write("<br/>");
  document.write("&nbsp <b>22. Standard Built-in objects </b> <br/>");
  document.write("<br/>");
@@ -437,3 +438,7 @@ document.write("<br/>");
  let no2= Number.isNaN(no);
  document.write("Built-in method in checking Number: ",no2,"<br/>");
  document.write("<br/>");
+ document.write("&nbsp <b>23. Styling DOM Elements </b> <br/>");
+ document.write("<br/>");
+ document.write("</center>");
+ 
