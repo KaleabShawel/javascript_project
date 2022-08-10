@@ -378,3 +378,25 @@ document.write("<br/>");
   [mySymbol] : 'This is secret information'
  };
  document.write(person5[mySymbol],"<br/>");
+ document.write("<br/>");
+ document.write("&nbsp <b>20. Object Methods </b> <br/>");
+ document.write("<br/>");
+ let person6 = {
+  name:'John',
+  age:30,
+  partTime:false,
+  showInfo : function(){
+    document.write("The person name is: ",this.name,"<br/>");
+    document.write("<br/>");
+  }
+ };
+ person6.showInfo();
+ let person7 = {
+  name:'John',
+  age:30,
+  partTime:false,
+  showInfo2 : function(realAge){
+    document.write(this.name," ","is:"," ",realAge,"<br/>")
+  }
+ };
+ person7.showInfo2(35);
